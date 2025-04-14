@@ -6,7 +6,7 @@ st.set_page_config(page_title="MEDai - Medical Diagnostics", layout="wide")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/disease.csv")
+    return pd.read_csv("disease.csv")
 
 df = load_data()
 
